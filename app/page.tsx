@@ -12,10 +12,14 @@ export default function Home() {
           height={20}
           priority
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left mt-10">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+            Sidra - es una pagina donde se mostrara productos interactivos en 3d
           </h1>
+          <img
+            src="https://solofruver.com/wp-content/uploads/2020/06/cidra.jpg"
+            alt="sidra image"
+          ></img>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for a starting point or more instructions? Head over to{" "}
             <a
